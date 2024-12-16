@@ -1,0 +1,195 @@
+body{ background-color: #012030;
+color :bisque;
+text-align: left;}
+
+
+h1 { font-size: 370%;
+  margin-left: 3em;
+font-family:monospace; }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #45C4B0;
+    background-color: #45C4B0;
+  }
+  
+  .flex-item img{
+width: 30%;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {         /*bron:https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black*/
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 130%;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #9AEBA3;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D; }
+ 
+    nav img {
+      width:  9%;
+    }
+
+  
+   .flex-container2 {
+      padding: 1em;
+      margin: 1em;
+      list-style: none;
+      border: 6px solid #dbcfaf;
+      background-color: #012030;
+      display: flex;
+      justify-content: flex-start;
+    }
+     .flex-container2 h2{
+      text-align: left; 
+    margin-left: 10%; 
+    margin-right: auto;
+
+    }
+
+
+h4{
+  text-align: center;
+  font-size: 200%;
+  background-color: rgb(26, 70, 110);
+  width: 10em;
+  padding: 1em;
+  margin: 1em;
+  transition: width 2s;
+  
+}
+
+
+h4:hover{
+  width: 400px;
+}
+
+
+
+section ul {
+  display: flex;
+}
+
+
+.flex-container{
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+  list-style: none;
+  border: 6px solid #012030;
+  background-color: #012030;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly
+}
+
+    .ons {
+      padding: 1em;
+      margin: 1em;
+      border-radius: 20px;
+      list-style: none;
+      border: 6px solid #012030;
+      background-color: #012030;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly
+    }
+
+  .flex-item img{
+    display: flex;
+    padding: 5%;
+    width: 90%;
+    margin: auto;
+
+  }
+
+.flex-item p{
+  padding: 5%;
+  padding-right: 10%;
+
+}
+
+    p {
+      font-size: 130%;
+    }
+
+    footer{color: bisque;}
+
+   
+      footer a:hover:not(.active) {
+        background-color: #04aa6d;
+      }
+      
+      footer a.active {
+        color: white;
+        background-color: #04aa6d; }
+    
+      h2{
+        padding-right: 20%;
+        padding-left: 0%;
+      }
+
+    .flex-container3{
+       display: flex;
+       width: 20%;
+      padding: 5%;
+      margin: 2%;
+      background-color: #012030;
+     
+      flex-wrap: wrap;  
+      justify-content: center;
+      padding: 1em;               
+      flex-direction: row; 
+           border: 6px solid #f4f5ca;
+    }
+
+    .flex-container3 h3{
+      text-align: center;
+      font-size: 180%;
+    }
+
+.contact{
+  display: flex;
+  text-align: auto;
+  background-color: #343333;
+  border: #343333;
+  flex-direction: row;
+   min-width: 20%;
+  max-width: 100%; 
+  margin: 1%;
+  padding: 20% 0;  
+    padding: 1em;               
+      flex-direction: row; 
+      gap: 3%;
+}
+
+.contact  h3{
+  text-align: center;
+  font-size: 150%;
+  border-bottom: #dbcfaf;
+  border-top: #343333;
+  border-left: #343333;
+  border-right: #343333;
+  border-style: double;
+}
+
+ .contact a{
+  color: bisque;  margin-right: 10px;
+  font-size: larger;
+}
