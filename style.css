@@ -166,7 +166,6 @@ section ul {
 
 .contact{
   display: flex;
-  text-align: auto;
   background-color: #343333;
   border: #343333;
   flex-direction: row;
